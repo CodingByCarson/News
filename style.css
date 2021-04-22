@@ -1,7 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+html {
+  scrollbar-color: black black;
+}
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+}
 body {
   background-color: black;
-  font-family: "Open Sans";
 }
 /* ----------------------------------------------- */
 .row {
@@ -19,21 +29,63 @@ body {
 }
 .box1 {
   border: 3px solid white;
+  background-color: black;
   color: white;
   padding: 5px;
   text-align: center;
+  box-shadow: 0px 0px 15px white;
+  border-radius: 5%;
 }
 
 .box2 {
   border: 3px solid white;
+  background-color: black;
   color: white;
   padding: 5px;
   text-align: center;
+  box-shadow: 0px 0px 15px white;
+  border-radius: 5%;
 }
 
 .box3 {
   border: 3px solid white;
+  background-color: black;
   color: white;
   padding: 5px;
   text-align: center;
+  box-shadow: 0px 0px 15px white;
+  border-radius: 5%;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+/* ----------------------------------------------- */
+.container a {
+  color: white;
+  font-size: 25px;
+  font-family: "Courier New";
+}
+.container a:hover {
+  transition: 0.2s;
+  color: red;
+}
+.container a:visited {
+  color: red;
+}
+.navigation-contents-socials {
+  display: flex;
+  justify-content: center;
+}
+.navigation-contents-socials a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.navigation-contents-socials a:hover {
+  transition: 0.3s;
+  color: red;
 }
